@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TabLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:tabGravity="fill"
+            app:tabSelectedTextColor="@color/colorAccent"
+            android:id="@+id/tab_layout">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/fun"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                style="@style/tab"
+                android:text="@string/fun"/>
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                style="@style/tab"
+                android:text="@string/restaurants"/>
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                style="@style/tab"
+                android:text="@string/nightlife"/>
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                style="@style/tab"
+                android:text="@string/events"/>
+        </android.support.design.widget.TabLayout>
+
+    </android.support.v4.view.ViewPager>
+
+</android.support.constraint.ConstraintLayout>

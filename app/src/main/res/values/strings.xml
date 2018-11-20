@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Columbus TourGuide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="restaurants">Restaurants</string>
+    <string name="fun">Fun things to do</string>
+    <string name="nightlife">Nightlife</string>
+    <string name="events">Events</string>
+    <string name="located_in">located in: </string>
+</resources>
